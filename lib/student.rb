@@ -40,7 +40,5 @@ def self.create(name:, grade:)
 end
 
 
-end
-
 
 end
