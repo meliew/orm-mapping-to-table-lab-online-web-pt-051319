@@ -39,7 +39,11 @@ def self.create(name:, grade:)
   student
 end
 
-def self.drop_table 
+def self.drop_table
+  sql = <<-SQL
+  DROP TABLE students 
+  SQL
+
 end
 
 
