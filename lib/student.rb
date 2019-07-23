@@ -39,6 +39,9 @@ def self.create(name:, grade:)
   student
 end
 
+def self.drop_table 
+end
+
 
 
 end
